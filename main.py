@@ -71,6 +71,7 @@ def main():
     options = Options()
     options.profile = profile
     options.binary_location = FIREFOX_BINARY_PATH
+    # options.add_argument("--headless")
 
     driver = webdriver.Firefox(options=options)
 
